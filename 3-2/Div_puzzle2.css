@@ -1,0 +1,65 @@
+body {
+	width: 100%;
+}
+.wrapper {
+	width: 400px;
+	margin: 0 auto;
+/* wrapperクラスを中央寄せ*/
+}
+/** header**/
+.header {
+	height: 100px;
+	background-color: #141f40;
+}
+/** end of header **/
+/** contents **/
+.contents {
+	height: 250px;
+}
+/** left **/
+.left {
+	width: 150px;
+	height: 100%;
+	background-color: #80bfa8;
+}
+/** end of left**/
+/** right **/
+.left-upper {
+	width: 150px;
+	height: 50px;
+	background-color: #dbd400;
+}
+.left-lower {
+	width: 150px;
+	height: 100px;
+	background-color: #0093d7;
+}
+.right-upper {
+	width: 100px;
+	height: 50px;
+	background-color: #ff9e6b;
+}
+.right-lower {
+	width: 100px;
+	height: 100px;
+	background-color: #ff9e6b;
+}
+.center {
+	width: 250px;
+	height: 100px;
+	background-color: #8c2727;
+}
+/** end of right **/
+/** end of contents **/
+/** footer **/
+.footer {
+	height: 100px;
+	background-color: #d98d30;
+}
+/** end oof footer **/
+
+/* reset.css*/
+* {
+	margin: 0;
+	padding: 0;
+}

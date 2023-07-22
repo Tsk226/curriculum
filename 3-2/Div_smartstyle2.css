@@ -1,0 +1,41 @@
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px){
+	.wrapper {
+		width: 150px;
+		margin: 0px;
+	}
+	.container {
+		height: 100%;
+}
+	.header {
+		height: 100px;
+/*		ヘッダー１*/
+	}
+	.side {
+		float: none;
+		height: 100px;
+/*		左２*/
+	}
+	.right {
+		float: none;
+/*		右の塊*/
+	}
+	.right-top {
+		float: none;
+		width: 150px;
+		height: 100px;
+/*		右３*/
+	}
+	.center {
+/*	float: none;*/
+/*	中央４５*/
+    }
+    .content-bottom {
+    	float: none;
+        height: 200px;
+    	width: 150px;
+/*    	中央６*/
+    }
+
+/*"content-bottom"に"float: none;"を入れると中央５と中央６が重なるエラー*/
+/*”right-top”から”float: none;”を抜いた状態で上記処理をすると収まる*/
