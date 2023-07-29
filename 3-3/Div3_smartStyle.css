@@ -1,0 +1,73 @@
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px){
+
+.wrapper {
+	width: 200px;
+	margin: 0px;
+}
+.container {
+		height: 100%;
+}
+.header {
+	height: 200px;
+	width: 200px;
+}
+.box1 {
+	box-sizing: content-box;
+	width: 60px;
+	height: 160px;
+	margin-top: 10px;
+	margin-right: 70px;
+}
+.box1-left {
+    margin-top: 10px;
+	margin-left: 10px;
+	float: none;
+}
+.box1-center {
+	float: none;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.box1-right {
+	float: none;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/*中央箱*/
+.center {
+	height: 300px;
+	width: 200px;
+}
+/*左２*/
+.left {
+	float: none;
+	width: 200px;
+	height: 100px;
+}
+/*右３*/
+.right {
+	float: none;
+	height: 200px;
+	width: 200px;
+/*	白枠３つとオレンジ箱３つ*/
+}
+.box2-top {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.box2-center {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.box2-bottom {
+	margin-bottom: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.footer {
+	width: 200px;
+	height: 200px;
+}
+}
